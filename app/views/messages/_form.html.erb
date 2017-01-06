@@ -24,6 +24,11 @@
     <%= f.text_area :body, :class => "form-control" %>
   </div>
   <br>
+  
+  <div class="form-group">
+    <%= f.label :age, "年齢" %>
+    <%= f.number_field :age, :class => "form-control" %>
+  </div>
   <%= f.submit class: "btn btn-sm btn-primary"  %>
   
 <% end %>
